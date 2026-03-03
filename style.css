@@ -1,0 +1,47 @@
+.calculator{
+    width: 97%;
+    height: 100%;
+    background: ivory;
+     margin-left: 1%;
+}
+button{
+    width: 15.5%;
+    height: 2rem;
+    padding: 1em;
+    gap: 10%;
+    border-radius: 0.5rem;
+    font-size: 0.7rem;
+    margin-top: 1rem;
+    background: skyblue;
+    
+}
+button.active{
+    background: white;
+}
+.div{
+    width: 100%;
+}
+.div button{
+    width:18.9%;
+    height: 3rem;
+    gap: 10%;
+}
+#box{
+    height: 4rem;
+    width : 95%;
+    margin-left: 1%;
+    background: gold;
+    }
+#equals{height: 2.5rem;
+width: 38%;
+margin-top: 1rem;
+top: 20px;
+bottom:100%;
+}
+input{
+    text-align: center;
+}
+
+    
+
+    

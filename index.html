@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="vieport" content="width=width-device, initial-scale=1.0">
+    <title>Page title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <div class="calculator">
+        <input type="text" id="box" placeholder="G__host" readOnly>
+         <div class="div">
+   <button onclick="document.getElementById('box').value += 'Shift'">
+Shift
+</button>
+   <button 
+onclick="document.getElementById('box').value += 'DRG'">
+DRG
+</button>
+    <button 
+onclick="document.getElementById('box').value += 'F<->E'">
+F<->E
+</button>
+    <button onclick="document.getElementById('box').value=''">
+Reset
+</button>
+   <button onclick="document.getElementById('box').value += ''">
+ON/OFF
+</button>
+
+       </div>
+       <div>
+    <button onclick="document.getElementById('box').value += 'hyp'">
+hyp
+</button>
+    <button onclick="r.innerHTML = Math.sin(n.value * Math.PI / 180)">
+sin
+</button>
+    <button onclick="document.getElementById('box').value += 'cos'">
+cos
+</button>
+    <button onclick="document.getElementById('box').value += 'tan'">
+tan
+</button>
+    <button onclick="document.getElementById('box').value += '—>'">
+—>
+</button>
+   <button onclick="box.value = box.value.slice(0,-1)">
+CE
+</button>
+     </div>
+     <div>
+         
+    <button onclick="document.getElementById('box').value += 'DEG'">
+DEG
+</button>
+    <button onclick="document.getElementById('box').value += 'In'">
+In
+</button>
+   <button onclick="document.getElementById('box').value += 'log'">
+log
+</button>
+    <button onclick="document.getElementById('box').value += 'a'">
+a
+</button>
+    <button onclick="document.getElementById('box').value += 'b'">
+b
+</button>
+    <button onclick="document.getElementById('box').value += 'x²'">
+x²
+</button>  
+       </div>
+       
+       <div>
+    <button onclick="document.getElementById('box').value += 'EXP'">
+EXP
+</button>
+    <button onclick="document.getElementById('box').value += 'Yⁿ'">
+Yⁿ</button>
+
+    <button onclick="document.getElementById('box').value += '√'">
+√
+</button>
+    <button onclick="document.getElementById('box').value += 'RCL'">
+RCL
+</button>
+    <button onclick="document.getElementById('box').value += 'STO'">
+STO
+</button>
+    <button onclick="document.getElementById('box').value += 'M+'">
+M+
+</button>
+       </div>
+       <div class="div">
+      <button onclick="document.getElementById('box').value += '7'">
+7
+</button>
+      <button onclick="document.getElementById('box').value += '8'">
+8
+</button>
+      <button onclick="document.getElementById('box').value += '9'">
+9
+</button>
+    <button onclick="document.getElementById('box').value += '('">
+(
+</button>
+    <button onclick="document.getElementById('box').value += ')'">
+)
+</button>
+    
+       </div>
+       <div class="div">
+        <button onclick="document.getElementById('box').value += '4'">
+4
+</button>
+     <button onclick="document.getElementById('box').value += '5'">
+5
+</button>
+      <button onclick="document.getElementById('box').value += '6'">
+6
+</button>
+    <button onclick="document.getElementById('box').value += '*'">
+*
+</button>
+    <button onclick="document.getElementById('box').value += '/'">
+/
+</button>
+     
+       </div>
+       <div class="div">
+         
+     <button <button onclick="document.getElementById('box').value += '1'">
+1
+</button>
+       <button onclick="document.getElementById('box').value += '2'">
+2
+</button>
+      <button onclick="document.getElementById('box').value += '3'">
+3
+</button>
+      <button onclick="document.getElementById('box').value += '+'">
++
+</button>
+    <button onclick="document.getElementById('box').value += '-'">
+-
+</button>
+       </div>
+       <div class="div">
+         <button onclick="document.getElementById('box').value += '0'">
+0
+</button>
+         <button onclick="document.getElementById('box').value += '.'">
+.
+</button>
+        <button onclick="document.getElementById('box').value += '±'">
+±
+</button>
+         
+         <button id="equals"  onclick="calculate()">=
+</button>
+      
+       </div>
+   </div>
+   
+</body>
+<script >
+   function calculate() {
+let expression = document.getElementById("box").value;
+document.getElementById("box").value = eval(expression);
+}
+
+  
+
+</script>
+</html>
