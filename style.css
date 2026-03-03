@@ -1,12 +1,12 @@
 .calculator{
     width: 97%;
-    height: 100%;
+    height: auto;
     background: ivory;
      margin-left: 1%;
 }
 button{
     width: 15.5%;
-    height: 2rem;
+    height: 5%;
     padding: 1em;
     gap: 10%;
     border-radius: 0.5rem;
